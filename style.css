@@ -46,6 +46,15 @@
 }
 
 @media(min-width:1024px) {
+    body {
+        height: 100%;
+    }
+
+    #background {
+        position: relative;
+        height: 100%;
+        width: 100%;
+    }
 
     #container {
         width: 70%;
@@ -55,6 +64,7 @@
     .col-md-3 {
         width: 25%;
         height: 350px;
+        margin-bottom: 20px;
     }
 
     .thumbnail {
@@ -74,6 +84,22 @@
 
     .contenedorInfo {
         margin: 10px;
+    }
+
+    #logo {
+        margin: 10px;
+    }
+
+    .navbar {
+        margin-bottom: 0px;
+    }
+
+    #footer {
+        position: absolute;
+        bottom: 0px;
+        height: 150px;
+        background-color: rebeccapurple;
+        width: 100%;
     }
 
 }
