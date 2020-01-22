@@ -1,5 +1,6 @@
-*{
+* {
     box-sizing: border-box;
+    border: 1px solid red;
 }
 
 #container {
@@ -7,31 +8,36 @@
     margin: 0 auto;
 }
 
-.col-xs-12, .col-sm-6, .col-md-3 {
-    
+.col-xs-12,
+.col-sm-6,
+.col-md-3 {
     width: 24%;
     height: 350px;
-    margin:5px;
-    margin-top:15px;
+    margin: 5px;
+    margin-top: 20px;
 }
 
-.thumbnail{
-    border: 1px solid red;
-    height: 350px;
+.thumbnail {
+    height: 344px;
     margin-top: 5px;
 }
 
-#imagen{
+#imagen {
     height: 150px;
     width: auto;
 }
 
-.form-group{
-    margin:0 auto;
+.form-group {
+    margin: 0 auto;
     width: 50%;
 }
 
-.contenedorInfo{
-    margin:10px;
+.contenedorInfo {
+    margin: 10px;
 }
 
+
+@media (max-width:500px) {
+    .form-group {}
+
+}
