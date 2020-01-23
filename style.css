@@ -46,6 +46,7 @@
 }
 
 @media(min-width:1024px) {
+
     body {
         height: 100%;
     }
@@ -79,12 +80,18 @@
 
     .form-group {
         margin: 0 auto;
-        width: 50%;
+        width: 250px;
     }
 
     .contenedorInfo {
         margin: 10px;
     }
+
+    #inputInfo {
+        width: 100%;
+    }
+
+    #boton {}
 
     #logo {
         margin: 10px;
